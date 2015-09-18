@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  SecondViewController.swift
 //  PittNow
 //
 //  Created by Omri Barak on 9/17/15.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class Laundry: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
