@@ -39,6 +39,9 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Computer Labs" image="first" id="acW-dT-cKf"/>
+                    <connections>
+                        <outlet property="myLabel" destination="A5M-7J-77L" id="ajz-OX-srC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
@@ -104,10 +107,10 @@
             </objects>
             <point key="canvasLocation" x="0.0" y="0.0"/>
         </scene>
-        <!--Laundry-->
+        <!--Courses-->
         <scene sceneID="R7q-GN-Kfj">
             <objects>
-                <viewController id="J5f-QA-PQ6" userLabel="Laundry" customClass="Courses" customModule="PittNow" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="J5f-QA-PQ6" userLabel="Courses" customClass="Courses" customModule="PittNow" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="K5O-cm-aTB"/>
                         <viewControllerLayoutGuide type="bottom" id="RdY-3q-4bo"/>
